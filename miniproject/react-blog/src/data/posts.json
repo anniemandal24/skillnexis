@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Understanding React Hooks",
+        "content": "React Hooks are functions that let you use state and other React features without writing a class. They were introduced in React 16.8 and have become a fundamental part of modern React development.",
+        "author": "John Doe",
+        "category": "React"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript ES6 Features",
+        "content": "ES6, also known as ECMAScript 2015, introduced many new features to JavaScript, including arrow functions, classes, template literals, and destructuring. These features make JavaScript more powerful and easier to work with.",
+        "author": "Jane Smith",
+        "category": "JavaScript"
+    },
+    {
+        "id": 3,
+        "title": "Building RESTful APIs with Node.js",
+        "content": "Node.js is a powerful platform for building server-side applications. In this post, we will explore how to create RESTful APIs using Node.js and Express, including routing, middleware, and error handling.",
+        "author": "Alice Johnson",
+        "category": "backend"
+    },
+    {
+    "id": 4,
+    "title": "React State and Events",
+    "category": "React",
+    "author": "Annie",
+    "description": "Understand useState and event handling in React."
+  },
+  {
+    "id": 5,
+    "title": "Introduction to Node.js",
+    "category": "Backend",
+    "author": "John",
+    "description": "Learn how Node.js allows JavaScript to run outside the browser."
+  }
+]
