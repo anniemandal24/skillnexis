@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+
+
+.auth-container {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f4f6f8;
+}
+
+.auth-box {
+    width: 400px;
+    padding: 40px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+.auth-box h1 {
+    margin-bottom: 30px;
+}
+
+.auth-box h2 {
+    margin-bottom: 30px;
+}
+
+.auth-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 14px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.auth-box button {
+    padding: 20px;
+
+    font-size: 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.auth-box button[type="submit"] {
+    background: #333;
+    color: white;
+}
+
+.secondary-btn {
+    background: #eee;
+}
+
+
+
+
+.navbar {
+    height: 65px;
+    padding: 40px 30px;
+
+    background: #222;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar button {
+    margin-left:auto;
+    background: white;
+}
+
+
+
+.dashboard {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.task-form input:first-child {
+    flex: 1;
+}
+
+.task-form input:nth-child(2) {
+    flex: 2;
+}
+
+.task-form button {
+    background: #333;
+    color: white;
+}
+
+
+
+.todo-item {
+    background: white;
+
+    padding: 20px;
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.todo-item h3 {
+    margin: 0 0 8px;
+}
+
+.todo-item p {
+    margin: 0;
+    color: #666;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.todo-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.delete-btn {
+    background: #d9534f;
+    color: white;
+}
